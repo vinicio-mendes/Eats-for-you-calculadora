@@ -10,6 +10,16 @@ main {
     background-color: white;
 }
 
+.container-about {
+    display: flex;
+}
+
+.container-form {
+    background-color: #73BFBF;
+    margin: auto;
+    padding: auto;
+}
+
 h1 {
     align-content: center;
 }
