@@ -16,12 +16,21 @@ main {
     background-color: white;
 }
 
+.title-main{
+    display: flex;
+    background-color:#FA6D35;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-about {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #73BFBF;
-    margin: 0;
+    font-family: Arial;
+    text-align: justify;
+    font-weight:bolder;
 }
 
 .about-text {
@@ -30,7 +39,7 @@ main {
     justify-content: center;
     background-color: #73BFBF;
     width: 400px;
-    margin: 0 0 0 300px;
+    margin: 0 0 0 400px;
 }
 
 .about-img {
@@ -40,13 +49,6 @@ main {
     background-color: #73BFBF;
     width: 400px;
     margin: 0 300px 0 0;
-}
-
-
-.container-form {
-    background-color: #73BFBF;
-    margin: auto;
-    padding: auto;
 }
 
 
@@ -98,6 +100,22 @@ main {
     margin: 0 50px 0 50px;
 }  
 
+.container-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+    margin-bottom: 100px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color:#FA6D35;
+    font-weight: bold;
+}
+
 
 h1 {
     display: flex;
@@ -124,6 +142,8 @@ p {
 
 a {
     text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -138,10 +158,11 @@ ul {
 li {
     float: left;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 
