@@ -18,9 +18,9 @@ main {
 
 }
 
-.title-main{
+.title-main {
     display: flex;
-    background-color:#FA6D35;
+    background-color: #FA6D35;
     align-items: center;
     justify-content: center;
 }
@@ -32,7 +32,7 @@ main {
     background-color: #73BFBF;
     font-family: Arial;
     text-align: justify;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 .about-text {
@@ -110,12 +110,13 @@ main {
     justify-content: center;
     padding: 50px 0 50px 0;
     margin-bottom: 100px;
+    
 }
 
 button {
     height: 50px;
     width: 200px;
-    background-color:#FA6D35;
+    background-color: #FA6D35;
     font-weight: bold;
 }
 
@@ -152,7 +153,6 @@ p {
 
 a {
     text-decoration: none;
-    color: white;
     font-weight: bold;
 }
 
@@ -177,6 +177,8 @@ li {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 
